@@ -1,0 +1,56 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 10px 0;
+    margin-right: 10px;
+    color: white;
+}
+
+.nav-item a {
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+
+.reply-box {
+    display: flex;
+    width: 600px;
+}
+
+.reply-box textarea {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    /*width: 100%;*/
+    margin: 0;
+    padding: 15px;
+    height: 30px;
+    align-items: center;
+    background-color: #000080;
+}
+
+.navbar .inner {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.navbar .nav-item a {
+    color: white;
+}
+
+.inner .right {
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}

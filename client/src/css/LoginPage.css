@@ -1,0 +1,51 @@
+.field {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.field span {
+    display: inline-block;
+    width: 120px;
+
+}
+
+.field input {
+    display: inline-block;
+    width: 400px;
+}
+
+.btn-ok {
+    background-color: #000080;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    color:#ffffff;
+}
+
+/*.btn-cancel {*/
+/*    background-color: #000080;*/
+/*    opacity: 0.7;*/
+/*    width: 120px;*/
+/*    height: 40px;*/
+/*    margin: 10px;*/
+/*    font-weight: 700;*/
+/*    cursor: pointer;*/
+/*    border: none;*/
+/*}*/
+
+.a-register {
+    margin-left: 300px;
+    color: #000080;
+    text-decoration:underline;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.div-login{
+    margin-left: 10px;
+}
+

@@ -1,0 +1,78 @@
+.twitter-item {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top:15px;
+    float: left;
+    margin-left: 10px
+}
+
+.twitter-item .icon {
+    margin-right: 10px;
+}
+
+.twitter-item .icon img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.twitter-item .main .nickname {
+    font-size: 18px;
+}
+
+.twitter-item .main .username {
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.twitter-item .main .date {
+    font-size: 18px;
+    margin-left: 20px;
+    opacity: 0.9;
+}
+
+.twitter-item .content {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    width: 550px;
+
+}
+
+.twitter-item .reply-float {
+    float:right;
+}
+
+
+.twitter-item .reply-icon img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.twitter-item .likes-icon img {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.twitter-item .dislikes-icon img {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.twitter-delbtn {
+    background-color: #000080;
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color:#fff;
+    font-weight: 700;
+    border: none;
+}
